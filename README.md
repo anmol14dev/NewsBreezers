@@ -7,8 +7,7 @@
 1. Filter headlines based on title. (fig 1.1)
 2. Save and Unsave articles for later. (fig 1.2)
 3. Sort articles baesd on Date or Authors name. (fig 1.3,1.4)
-4. Indicator to display article if saved.
-5. Articles cached in local storage in case of no internet connection. fig(1.5)
+4. Indicator to display article if saved. (fig 1.5)
 
 
 <img src="https://i.imgur.com/djosSXp.jpg"/><img src="https://imgur.com/DuUSXgR"/><img src="https://i.imgur.com/aJ4aaic.jpg"/><img src="https://i.imgur.com/IB5Goag.jpg"/><img src="https://i.imgur.com/g8yN6ne.jpg"/>
