@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/Theme.Design.Light.NoActionBar"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NewsBreezer"
+        android:fontFamily="@font/lobster"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_weight="9"/>
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/saved_list_icon"
+            android:id="@+id/saved_list"
+
+            android:layout_gravity="right"/>
+            <ImageView
+                android:layout_margin="0dp"
+                android:id="@+id/notify_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/notify"
+                android:layout_gravity="top|left"
+                android:visibility="invisible"/>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:clipToPadding="true"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/search_icon"/>
+        <EditText
+            android:maxLines="1"
+            android:inputType="text"
+            android:id="@+id/search_field"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Search Headlines"/>
+
+</LinearLayout>
+    <com.google.android.material.chip.ChipGroup
+        android:layout_height="34dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        app:singleSelection="true">
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="match_parent"
+            android:text="Date"
+
+            android:id="@+id/chip_date"
+            style="@style/CustomChipChoice"/>
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Author"
+            android:id="@+id/chip_author"
+            android:paddingHorizontal="12dp"
+            style="@style/CustomChipChoice"/>
+
+</com.google.android.material.chip.ChipGroup>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Result Available"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/no_result"/>
+
+</LinearLayout>

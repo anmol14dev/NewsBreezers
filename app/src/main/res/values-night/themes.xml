@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewsBreezer" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/save_green</item>
+        <item name="colorPrimaryVariant">@color/save_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/background_grey_darker</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/background_grey_darker</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomChipChoice" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/background_color_chip_state_list</item>
+        <item name="android:textColor">@color/text_color_chip_state_list</item>
+    </style>
+
+    <!-- Disabling elevation overlays because when chip's default background/surface
+         composite are combined with elevation overlays in a highly elevated dialog,
+         the resulting color becomes too light and causes contrast
+         issues. -->
+    <style name="ThemeOverlay.MyApp.Chip.Choice" parent="">
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="chipBackgroundColor">@color/save_green</item>
+
+    </style>
+</resources>
