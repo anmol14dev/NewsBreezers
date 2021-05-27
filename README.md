@@ -1,4 +1,4 @@
-# NewsBreezer : A news fetching application made with Java, ViewModel, LiveData, Retrofit and Room database.
+# NewsBreezer : A news fetching application made with Java, ViewModel, LiveData, Retrofit.
 
 <img src="https://i.imgur.com/g8yN6ne.jpg"/>
 
