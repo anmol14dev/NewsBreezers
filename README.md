@@ -1,4 +1,4 @@
-# NewsBreezer : A news fetching application made with Java, ViewModel, LiveData, Retrofit.
+# NewsBreezer : A news fetching application made with Java, ViewModel, LiveData, Retrofit, Room Database.
 
 <img src="https://i.imgur.com/g8yN6ne.jpg"/>
 
@@ -27,7 +27,7 @@ The Application doesn't support night mode.
 
 ## How to install
 
-The build apk of the project is present and named as newsbreezer.apk 
+The build apk of the project is present and named as fina_project.apk  in apk folder.
 In android allow installation from unknown resources.
 
 
