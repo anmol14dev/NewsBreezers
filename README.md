@@ -11,7 +11,7 @@
 5. Data cached in local storage in case on network connection (fig 1.5)
 
 
-<img src="https://i.imgur.com/djosSXp.jpg"/><img src="https://imgur.com/DuUSXgR"/><img src="https://i.imgur.com/aJ4aaic.jpg"/><img src="https://i.imgur.com/IB5Goag.jpg"/><img src="https://i.imgur.com/g8yN6ne.jpg"/>
+<img src="https://i.imgur.com/djosSXp.jpg"/><img src="https://i.imgur.com/DuUSXgR.jpg"/><img src="https://i.imgur.com/aJ4aaic.jpg"/><img src="https://i.imgur.com/IB5Goag.jpg"/><img src="https://i.imgur.com/g8yN6ne.jpg"/>
 
 
 ## Description
