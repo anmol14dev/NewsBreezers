@@ -6,7 +6,7 @@
 
 1. Filter headlines based on title. (fig 1.1)
 2. Save and Unsave articles for later. (fig 1.2)
-3. Sort articles baswd on Date or Authors name by clicking choice chips. (fig 1.3,1.4)
+3. Sort articles based on Date or Authors name by clicking choice chips. (fig 1.3,1.4)
 4. Indicator to display article if saved.
 5. Data cached in local storage in case on network connection (fig 1.5)
 
