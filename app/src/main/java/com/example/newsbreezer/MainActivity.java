@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity implements NewsListAdapter.s
                 }
             }
         });
-        viewModel.makeApiCall();
 
     }
 
